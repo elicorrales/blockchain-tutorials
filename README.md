@@ -42,7 +42,7 @@ In the next series we delve into the what/how of command-line client required to
 <br/>
 
 This series differs from the NEAR blockchain series in several ways:
-- We are deployin eBPF programs, not WASM
+- We are deploying eBPF programs, not WASM
 - We deploy to a local test blockchain
 - We also delve into writing a command-line Node.js Javascript client
 - We use VSCode to debug
