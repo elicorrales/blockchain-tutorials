@@ -23,7 +23,7 @@ Once we'v gotten our local development environment set up, we work on our "smart
 
 [Remake Old Programmer-Part 7: Rust Crates,Import,Use Macros,Deploy Bin Vs Lib, WASI, Be Careful](https://www.youtube.com/watch?v=6rRMuU36YOk&list=PLNKa8O7lX-w5Myr19mn-dxtSphB5X1jUW&index=7)
 
-[The code as we conclude this series](https://github.com/elicorrales/rust-near-blockchain)
-
-
+[The code as we conclude this series](https://github.com/elicorrales/rust-near-blockchain)  
+<br/>
+<br/>
 ## Solana Blockchain Tutorial
