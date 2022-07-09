@@ -54,13 +54,13 @@ Hopefully most of the youtube titles are self-explanatory.
 
 [Blockchain Programmer-Part 1: Intro To Solana, Account, Keypair, Test Validator](https://www.youtube.com/watch?v=HiTJwCKzuD8&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=1)  
 
-[Blockchain Programmer Part 2-Multiple Solana Test Validators](https://www.youtube.com/watch?v=phdmzafMvYc&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=2)  
+[Blockchain Programmer Part 2- How To Set Up Multiple Solana Test Validators](https://www.youtube.com/watch?v=phdmzafMvYc&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=2)  
 
-[Blockchain Programmer-Part 3: Multiple WSL Ubuntu Environments](https://www.youtube.com/watch?v=9hssNB5LiVE&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=3)  
+[Blockchain Programmer-Part 3: How to Set Up Multiple WSL Ubuntu Environments](https://www.youtube.com/watch?v=9hssNB5LiVE&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=3)  
 
-[Blockchain Programmer-Part 4: Start of Solana Node.js Client](https://www.youtube.com/watch?v=wJIHjfpT82o&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=4)  
+[Blockchain Programmer-Part 4: We Start Composing A Solana Node.js Cmd-Line Client](https://www.youtube.com/watch?v=wJIHjfpT82o&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=4)  
 
-[]()  
+[Blockchain Programmer-Part 5: Solana Node.js Client Interaction With Blockchain](https://www.youtube.com/watch?v=XKvoilqT4Ps&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=5)  
 
 []()  
 
