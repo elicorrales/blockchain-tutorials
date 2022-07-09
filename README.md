@@ -1,5 +1,5 @@
-# blockchain-tutorials  
-These tutorials attempt to choose something somewhat challenging but at the same time go at a slow pace and try to go over basics.  
+# Decentralized Application (dApp) Blockchain Tutorials  
+These video-based(youtube) tutorials attempt to choose something somewhat challenging but at the same time go at a slow pace and try to go over basics.  
 <br/>
 The approach is to:
 - constantly ask "what, why, how"
