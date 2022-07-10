@@ -62,12 +62,12 @@ Hopefully most of the youtube titles are self-explanatory.
 
 [Blockchain Programmer - Part 5: Solana Node.js Client Interaction With Blockchain (Local Test Validator)](https://www.youtube.com/watch?v=XKvoilqT4Ps&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=5)  
 
-[Blockchain Programmer - Part 6: Solana Rust On-Chain Program-Initial Build](https://www.youtube.com/watch?v=JEZm4F1VLbk&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=6)  
+[Blockchain Programmer - Part 6: Initial Build Of A Solana Rust On-Chain Program](https://www.youtube.com/watch?v=JEZm4F1VLbk&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=6)  
 
 [Blockchain Programmer - Part 7: Deploy The Solana Rust On Chain Program](https://www.youtube.com/watch?v=rgJtW_FTXg8&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=7)  
 
 [Blockchain Programmer-Part 8: Setup VSCode With Windows and WSL](https://www.youtube.com/watch?v=rFqQJL8quTc&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=8)  
-[]()  
+[Blockchain Programmer-Part 9: How To Find Example Code Snippets To Learn Solana, Web3.js](https://www.youtube.com/watch?v=Dnc5qnZ0dMM&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=9)  
 []()  
 []()  
 []()  
