@@ -6,7 +6,7 @@ The approach is to:
 - try the most minimalist code unless it doesn't make sense to
 - use the "onion" - sometimes we go deep into one topic, and at other times it's very shallow but we cover various topics
 
-## NEAR Blockchain Tutorial (Deploying WASM)
+## Series I - NEAR Blockchain Tutorial (Deploying WASM)
 
 Between Part 1 and 2, we arrive at the conclusion to focus on Rust, and start with WASM blockchains.  
 
@@ -39,7 +39,7 @@ In the next series we delve into the what/how of command-line client required to
 <br/>
 <br/>
 <br/>
-## Solana Blockchain Tutorial (Deploying eBPF)
+## Series II - Solana Blockchain Tutorial (Deploying eBPF)
 <br/>
 
 This series differs from the NEAR blockchain series in several ways:
