@@ -72,10 +72,17 @@ Working on a ["How-To Set Up Your Dev Environment"](How-To-Set-Up-Env.md)
 [Blockchain Programmer-Part 8: Setup VSCode With Windows and WSL](https://www.youtube.com/watch?v=rFqQJL8quTc&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=8) 
 
 [Blockchain Programmer-Part 9: How To Find Example Code Snippets To Learn Solana, Web3.js](https://www.youtube.com/watch?v=Dnc5qnZ0dMM&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=9)  
+
+
+[Blockchain Programmer-Part 10: Node.js Javascript Cmd-line Client Talks to Rust On-Chain Program](https://www.youtube.com/watch?v=jDOIdC58puE&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=10)  
+We finally have an initial success at getting our command-line client app to "tickle"(invoke) the "entry point" of our Rust on-chain program.
+
 []()  
+
 []()  
+
 []()  
-[]()  
+
 
 
 
