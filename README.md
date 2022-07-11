@@ -76,6 +76,7 @@ Working on a ["How-To Set Up Your Dev Environment"](How-To-Set-Up-Env.md)
 
 [Blockchain Programmer-Part 10: Node.js Javascript Cmd-line Client Talks to Rust On-Chain Program](https://www.youtube.com/watch?v=jDOIdC58puE&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=10)  
 We finally have an initial success at getting our command-line client app to "tickle"(invoke) the "entry point" of our Rust on-chain program.
+[Here](https://github.com/elicorrales/my-first-solana-project-after-series-II-part-10) is the code as a result of arriving to Part 10.
 
 []()  
 
