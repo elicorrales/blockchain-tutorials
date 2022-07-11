@@ -55,31 +55,38 @@ OUTPUT:
 rustup 1.24.3 (ce5817a94 2021-05-31)
 info: This is the version for the rustup toolchain manager, not the rustc compiler.
 info: The currently active `rustc` version is `rustc 1.62.0 (a8314ef7d 2022-06-27)`
+```  
+  
+OR:  
+  
+DO:  
+```
+rust update
 ```
 
-OR:
-
-DO:
-rust update
-OUTPUT:
+OUTPUT:  
+```
 info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
 info: checking for self-updates
 
   stable-x86_64-unknown-linux-gnu unchanged - rustc 1.62.0 (a8314ef7d 2022-06-27)
 
 info: cleaning up downloads & tmp directories
+```
 
+### 4. INSTALL(UPDATE) NPM, NODEJS (NVM?)  
+#### THIS WILL BE USED FOR CLIENT-SIDE  
 
-4. INSTALL(UPDATE) NPM, NODEJS (NVM?)
-THIS WILL BE USED FOR CLIENT-SIDE 
-=================================================================
-#these two scripts seem to be the same...
-#..except that the 'creationix' script seems to have extra checks.
-#just do a vimdiff between them.
+These two scripts seem to be the same except that the 'creationix' script seems to have extra checks.  
 
-DO:
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+DO:  
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
+```
+OR:  
+```
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash  
+```
 
 #https://github.com/creationix is "Tim Caswell"
 #he has pinned repository "nvm-sh/nvm"
