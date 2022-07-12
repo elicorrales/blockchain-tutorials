@@ -77,6 +77,44 @@ Working on a ["How-To Set Up Your Dev Environment"](How-To-Set-Up-Env.md)
 [Blockchain Programmer-Part 10: Node.js Javascript Cmd-line Client Talks to Rust On-Chain Program](https://www.youtube.com/watch?v=jDOIdC58puE&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=10)  
 We finally have an initial success at getting our command-line client app to "tickle"(invoke) the "entry point" of our Rust on-chain program.
 [Here](https://github.com/elicorrales/my-first-solana-project-after-series-II-part-10) is the code as a result of arriving to Part 10.
+<br/>
+<br/>
+
+### Up next... Part 11... stay tuned.  
+
+Useful commands:
+```
+solana config get
+```
+The above line shows you what your local config has.  Two important values would be the URL (for this series -we are using ```localhost```) and the ```Keypair Path```.
+  
+<br/>
+
+```
+solana-test-validator  # keep this running in a terminal
+```
+I mostly run the above local validator in the current project directory.  It creates a directory ```test-validator```.  Make sure that your local config ```solana config get``` is pointing to the correct ```wallet```.  
+I mostly run the local validator with the ```--reset``` flag - starts fresh every time. Means you'll have to re-deploy  your on-chain program AND you'll lose any accounts your client created.  
+<br/>
+```
+solana logs # keep this running in another terminal
+```
+The above will display any output related to your on-chain deployed program, or certain command-line solana commands, such as ```deploy```.  
+<br/>
+```
+solana program show --programs
+```
+The above line will let you know if your program is currently deployed.  
+<br/>
+```
+solana account <your account public key string here>
+```
+The above shows you information about a single account.  
+<br/>
+This one (below) might even be a better command. You get a list of accounts.  
+```
+solana largest-accounts
+```
 
 []()  
 
