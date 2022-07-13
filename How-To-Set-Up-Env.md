@@ -131,25 +131,38 @@ Creating default alias: default -> node (-> v18.4.0)
 It installs latest node AND npm.  
 <br/>
 
-DO:
-node --version
-DO:
-npm --version
+DO:  
+```
+node --version  
+```
+
+DO:  
+```
+npm --version  
+```
+<br/>
 
 
+### 5. INSTALL SOLANA TOOLSET
+For your edification,
+DO:  
+```
+cargo --list | grep bpf  
+```
 
-5. INSTALL SOLANA TOOLSET
-=================================================================
-#for your edification,
-DO:
-cargo --list | grep bpf
-OUTPUT:
-nothing - you should not see any 'bpf' related commands show up.
+OUTPUT:  
+nothing - you should not see any 'bpf' related commands show up.  
+  
+DO:  
+Chec [this Solana install page](https://docs.solana.com/cli/install-solana-cli-tools) for the latest install version.  
+Currently it is version v1.10.31.  
+Adjust the install one-line command below accordingly.  
+```
+sh -c "$(curl -sSfL https://release.solana.com/v1.10.30/install)"
+```
 
-DO:
-sh -c "$(curl -sSfL https://release.solana.com/v1.10.29/install)"
-
-OUTPUT:
+OUTPUT:  
+```
 downloading v1.10.29 installer
   ✨ 1.10.29 initialized
 Adding
@@ -158,26 +171,30 @@ export PATH="/home/developer/.local/share/solana/install/active_release/bin:$PAT
 Close and reopen your terminal to apply the PATH changes or run the following in your existing shell:
 
 export PATH="/home/developer/.local/share/solana/install/active_release/bin:$PATH"
+```
 
+NOTE: do an 'ls -lta' and you should see that the above installation might have added a '.profile' to your home directory.  
+If you cat that file, at bottom you should see that it already added the above 'export PATH..blah...blah.. solana..blah..blah.  
 
-#NOTE: do an 'ls -lta' and you should see that the above installation might have
-#added a '.profile' to your home directory.
-#if you cat that file, at bottom you should see that it already added
-#the above 'export PATH..blah...blah.. solana..blah..blah
-
-DO:
+DO:  
+```
 source ~/.profile #it will also run .bashrc
-
-
-DO:
+```
+  
+DO:  
+```
 cargo --list | grep bpf
+```
+
 OUTPUT:
+```
     build-bpf
     test-bpf
+```
 
-#so the installation of solana tools also adds new bpf commands to cargo.
-
-
+The installation of solana tools also adds new bpf commands to cargo.  
+  
+<br/>
 
 
 6. CREATE A SOFTWARE PROJECT DIRECTORY
