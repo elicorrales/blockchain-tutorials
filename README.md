@@ -76,12 +76,20 @@ Hopefully most of the youtube titles are self-explanatory.
 
 
 [Blockchain Programmer-Part 10: Node.js Javascript Cmd-line Client Talks to Rust On-Chain Program](https://www.youtube.com/watch?v=jDOIdC58puE&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=10)  
-We finally have an initial success at getting our command-line client app to "tickle"(invoke) the "entry point" of our Rust on-chain program.
+We finally have an initial success at getting our command-line client app to "tickle"(invoke) the "entry point" of our Rust on-chain program.  
+
 [Here](https://github.com/elicorrales/my-first-solana-project-after-series-II-part-10) is the code as a result of arriving to Part 10.
 <br/>
 <br/>
 
-### Up next... Part 11... stay tuned.  
+[Blockchain Programmer-Part 11: Pass Data Client To On-Chain Rust Prog | Multi-Version Deployments]()  
+
+In this video we learn how to  
+- display any data that is passed in from the client to the on-chain program
+- control which program id (keypair) we wish to use when deploying an on-chain program
+- deploy and run multiple versions of the program by which program id we use to invoke it  
+
+[Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-11) is the code from this part 11.  
 
 Useful commands:
 ```
@@ -105,8 +113,11 @@ The above will display any output related to your on-chain deployed program, or 
 ```
 solana program show --programs
 ```
-The above line will let you know if your program is currently deployed.  
+The above line will let you know if your program(s) are currently deployed.  
 <br/>
+
+
+### Up next... Part 12... stay tuned.  
 ```
 solana account <your account public key string here>
 ```
