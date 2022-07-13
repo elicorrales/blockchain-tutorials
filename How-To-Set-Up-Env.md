@@ -34,7 +34,7 @@ sudo apt install -y build-essential
 
 
 ## 3. INSTALL (OR MAYBE UPDATE?)  RUST  
-#### (WE ARE LEARNING RUST - AND IT BUILDS THE ON-CHAIN PROGRAMS - SMART CONTRACTS)  
+### (WE ARE LEARNING RUST - AND IT BUILDS THE ON-CHAIN PROGRAMS - SMART CONTRACTS)  
 DO:  
 ```
 rustup
@@ -74,9 +74,9 @@ info: checking for self-updates
 info: cleaning up downloads & tmp directories
 ```
 
-### 4. INSTALL(UPDATE) NPM, NODEJS (NVM?)  
-#### THIS WILL BE USED FOR CLIENT-SIDE  
-##### This way uses only NVM and assumes there is no global system-wide npm/node. 
+## 4. INSTALL(UPDATE) NPM, NODEJS (NVM?)  
+### THIS WILL BE USED FOR CLIENT-SIDE  
+#### This way uses only NVM and assumes there is no global system-wide npm/node. 
 
 These two scripts seem to be the same except that the 'creationix' script seems to have extra checks.  
 
@@ -143,7 +143,7 @@ npm --version
 <br/>
 
 
-### 5. INSTALL SOLANA TOOLSET
+## 5. INSTALL SOLANA TOOLSET
 For your edification,
 DO:  
 ```
@@ -197,8 +197,8 @@ The installation of solana tools also adds new bpf commands to cargo.
 <br/>
 
 
-### 6. CREATE A SOFTWARE PROJECT DIRECTORY  
-#### These are just suggested, not required to do exactly like this below.
+## 6. CREATE A SOFTWARE PROJECT DIRECTORY  
+### These are just suggested, not required to do exactly like this below.
 DO:  
 ```
 mkdir -p MySoftwareProjects/blockchain/rust/rust-solana-blockchain-projects
@@ -209,9 +209,9 @@ cd MySoftwareProjects/blockchain/rust/rust-solana-blockchain-projects
 <br/>  
 
 
-### 7. CREATE A TOP-LEVEL PROJECT && CLIENT DIR
-#### THIS WILL BE FOR CLIENT, FOR RUST ON-CHAIN PROGRAM, FOR WALLET, AND MORE
-##### While in the "rust-solana-blockchain-projects" directory, do...  
+## 7. CREATE A TOP-LEVEL PROJECT && CLIENT DIR
+### THIS WILL BE FOR CLIENT, FOR RUST ON-CHAIN PROGRAM, FOR WALLET, AND MORE
+#### While in the "rust-solana-blockchain-projects" directory, do...  
 
 DO:  
 ```
@@ -220,8 +220,8 @@ mkdir -p my-first-solana-project/my-first-wallet
 ```
 <br/>
 
-### 8. CREATE A FILE SYSTEM WALLET
-#### While at top-level project dir: my-first-solana-project, do...  
+## 8. CREATE A FILE SYSTEM WALLET
+### While at top-level project dir: my-first-solana-project, do...  
 DO:  
 ```
 solana-keygen new --outfile my-first-wallet/my-keypair.json
@@ -259,7 +259,7 @@ OUTPUT: (just an example; yours will differ)
 ```
 
 
-### 9. SETUP CONFIG FOR SOLANA
+## 9. SETUP CONFIG FOR SOLANA
 DO: (let's see what config says it has)
 solana config get
 OUTPUT:
@@ -306,8 +306,8 @@ Commitment: confirmed
 
 
 
-### 10. START UP SINGLE-NODE CLUSTER (TEST OUT CONFIG, WALLET, etc)
-#### in another terminal, not in the one where we are at our
+## 10. START UP SINGLE-NODE CLUSTER (TEST OUT CONFIG, WALLET, etc)
+### in another terminal, not in the one where we are at our
 top-level project dir... we are going to leave this running(mostly)
 
 DO:
@@ -331,7 +331,7 @@ JSON RPC URL: http://127.0.0.1:8899
 
 
 
-### 12. MONITOR LOG(OUTPUT) OF TEST VALIDATOR
+## 11. MONITOR LOG(OUTPUT) OF TEST VALIDATOR
 (open yet a 3rd terminal window)
 DO:
 solana logs
@@ -340,7 +340,7 @@ solana logs
 
 
 
-### 13. TEST ACCOUNT - WE ARE AGAIN AT OUR TOP-LEVEL PROJECT DIRECTORY
+## 12. TEST ACCOUNT - WE ARE AGAIN AT OUR TOP-LEVEL PROJECT DIRECTORY
 (find the public key string that you saw when you generated the new wallet - scroll up til you find it - copy it)  
 
 DO:
@@ -357,7 +357,7 @@ Executable: false
 Rent Epoch: 0
 ```
 
-### 14. CREATE NEW CLIENT JS
+## 13. CREATE NEW CLIENT JS
 (in our client project dir: my-first-client)
 
 DO:  
@@ -366,7 +366,7 @@ touch client.js
 ```
 
 
-### 15. INSTALL/CONFIG WEB3.JS
+## 14. INSTALL/CONFIG WEB3.JS
 We depend on @solana/web3.js  to be able to interact with Solana on-chain programs.
 
 ```
@@ -385,7 +385,7 @@ export NODE_PATH=$(npm root -g)
 
 
 
-
+```
 netstat -a
 
 sudo apt install -y net-tools
@@ -396,14 +396,13 @@ npm search <term> (example: web3  or @solana)
 export NODE_PATH=$(npm root -g)
 
 npm: npm install @solana/web3.js
+```
 
 
 
 
 
-
-16. 
-=================================================================
+## 16. 
 DO:
 cd my-first-on-chain-program-bin-plus-lib/
 
