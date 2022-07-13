@@ -82,7 +82,7 @@ We finally have an initial success at getting our command-line client app to "ti
 <br/>
 <br/>
 
-[Blockchain Programmer-Part 11: Pass Data Client To On-Chain Rust Prog | Multi-Version Deployments]()  
+[Blockchain Programmer-Part 11: Pass Data Client To On-Chain Rust Prog | Multi-Version Deployments](https://www.youtube.com/watch?v=wL6b4w-LNmA&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=11)  
 
 In this video we learn how to  
 - display any data that is passed in from the client to the on-chain program
