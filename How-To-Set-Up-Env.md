@@ -197,53 +197,38 @@ The installation of solana tools also adds new bpf commands to cargo.
 <br/>
 
 
-6. CREATE A SOFTWARE PROJECT DIRECTORY
-=================================================================
-DO:
+### 6. CREATE A SOFTWARE PROJECT DIRECTORY  
+#### These are just suggested, not required to do exactly like this below.
+DO:  
+```
 mkdir -p MySoftwareProjects/blockchain/rust/rust-solana-blockchain-projects
-
+```
+```
 cd MySoftwareProjects/blockchain/rust/rust-solana-blockchain-projects
+```
+<br/>  
 
 
+### 7. CREATE A TOP-LEVEL PROJECT && CLIENT DIR
+#### THIS WILL BE FOR CLIENT, FOR RUST ON-CHAIN PROGRAM, FOR WALLET, AND MORE
+##### While in the "rust-solana-blockchain-projects" directory, do...  
 
+DO:  
+```
+mkdir -p my-first-solana-project/my-first-client  
+mkdir -p my-first-solana-project/my-first-wallet  
+```
+<br/>
 
-
-
-7. CREATE A TOP-LEVEL PROJECT - THIS WILL BE FOR CLIENT AND RUST ON-CHAIN PROGRAM
-=================================================================
-DO:
-mkdir my-first-solana-project
-DO:
-cd my-first-solana-project
-
-
-
-
-
-
-
-8. CREATE A CLIENT PROJECT (NODE.JS)
-=================================================================
-DO:
-mkdir my-first-client
-
-
-
-
-
-
-
-9. CREATE A FILE SYSTEM WALLET
-=================================================================
-(we are at our top-level project dir: my-first-solana-project)
-
-DO:
-mkdir my-first-wallet
-
-DO:
+### 8. CREATE A FILE SYSTEM WALLET
+#### While at top-level project dir: my-first-solana-project, do...  
+DO:  
+```
 solana-keygen new --outfile my-first-wallet/my-keypair.json
+```
 
-OUTPUT:
+OUTPUT:  
+```
 Generating a new keypair
 
 For added security, enter a BIP39 passphrase
@@ -260,20 +245,21 @@ pubkey: 2tJTBeAGw982yew93Dd6ewNmr2tvbvRF6VTfHk8XtERV
 Save this seed phrase and your BIP39 passphrase to recover your new keypair:
 crystal couple nominee ski below bracket adult gesture arrange cousin wheat this
 ================================================================================
+```
+<br/>
 
-
-
-TO VIEW PUBKEY, DO:
+TO VIEW PUBKEY, DO:  
+```
 solana-keygen pubkey my-first-wallet/my-keypair.json
-OUTPUT:
+```
+
+OUTPUT: (just an example; yours will differ)
+```
 2tJTBeAGw982yew93Dd6ewNmr2tvbvRF6VTfHk8XtERV
+```
 
 
-
-
-
-10. SETUP CONFIG FOR SOLANA
-=================================================================
+### 9. SETUP CONFIG FOR SOLANA
 DO: (let's see what config says it has)
 solana config get
 OUTPUT:
@@ -320,9 +306,8 @@ Commitment: confirmed
 
 
 
-11. START UP SINGLE-NODE CLUSTER (TEST OUT CONFIG, WALLET, etc)
-=================================================================
-# in another terminal, not in the one where we are at our
+### 10. START UP SINGLE-NODE CLUSTER (TEST OUT CONFIG, WALLET, etc)
+#### in another terminal, not in the one where we are at our
 top-level project dir... we are going to leave this running(mostly)
 
 DO:
@@ -346,8 +331,7 @@ JSON RPC URL: http://127.0.0.1:8899
 
 
 
-12. MONITOR LOG(OUTPUT) OF TEST VALIDATOR
-=================================================================
+### 12. MONITOR LOG(OUTPUT) OF TEST VALIDATOR
 (open yet a 3rd terminal window)
 DO:
 solana logs
@@ -356,44 +340,48 @@ solana logs
 
 
 
-13. TEST ACCOUNT - WE ARE AGAIN AT OUR TOP-LEVEL PROJECT DIRECTORY
-=================================================================
-(find the public key string that you saw when you generated the new wallet - scroll up til you find it - copy it)
-DO:
-solana account <pubkey here>
-OUTPUT:
+### 13. TEST ACCOUNT - WE ARE AGAIN AT OUR TOP-LEVEL PROJECT DIRECTORY
+(find the public key string that you saw when you generated the new wallet - scroll up til you find it - copy it)  
 
+DO:
+```
+solana account <pubkey here>
+```
+
+OUTPUT:
+```
 Public Key: 2tJTBeAGw982yew93Dd6ewNmr2tvbvRF6VTfHk8XtERV
 Balance: 500000000 SOL
 Owner: 11111111111111111111111111111111
 Executable: false
 Rent Epoch: 0
+```
 
-
-14. CREATE NEW CLIENT JS
-=================================================================
+### 14. CREATE NEW CLIENT JS
 (in our client project dir: my-first-client)
 
-DO:
+DO:  
+```
 touch client.js
+```
 
 
-
-15. INSTALL/CONFIG WEB3.JS
-=================================================================
+### 15. INSTALL/CONFIG WEB3.JS
 We depend on @solana/web3.js  to be able to interact with Solana on-chain programs.
 
+```
 npm search <term> (example: web3  or @solana)
 npm search @solana
 npm search web3
 
 npm install -g @solana/web3.js
-
+```
+```  
 ###################################################################
 #this is so that global npm packages are also available to projects
 ###################################################################
 export NODE_PATH=$(npm root -g)
-
+```
 
 
 
