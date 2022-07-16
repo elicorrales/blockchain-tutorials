@@ -116,9 +116,12 @@ solana program show --programs
 The above line will let you know if your program(s) are currently deployed.  
 <br/>
 
-[Blockchain Programmer-Part 12: Rust: Init Arrays | Conv To String | Cmd-Line Args | If-Else | Match](https://github.com/elicorrales/my-first-solana-project-series-II-part-12)  
+[Blockchain Programmer-Part 12: Rust: Init Arrays | Conv To String | Cmd-Line Args | If-Else | Match](https://www.youtube.com/watch?v=Vyqpr1WFs_0)  
 [Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-12) is the code from this part 12.  
 <br/>
+
+[Blockchain Programmer-Part 13: Node.js Client Cmdline-Args to Solana On-Chain Program](https://www.youtube.com/watch?v=ZatpilAexak)  
+[Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-13) is the code from this part 13.
 
 ### Up next... Part 13... stay tuned.  
 ```
