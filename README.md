@@ -118,14 +118,17 @@ The above line will let you know if your program(s) are currently deployed.
 
 [Blockchain Programmer-Part 12: Rust: Init Arrays | Conv To String | Cmd-Line Args | If-Else | Match](https://www.youtube.com/watch?v=Vyqpr1WFs_0)  
 [Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-12) is the code from this part 12.  
-<br/>
-
+<br/>  
+  
 [Blockchain Programmer-Part 13: Node.js Client Cmdline-Args to Solana On-Chain Program](https://www.youtube.com/watch?v=ZatpilAexak)  
-[Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-13) is the code from this part 13.
-
+[Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-13) is the code from this part 13.  
 <br/>
-
-### Up next... Part 14... stay tuned.  
+[Blockchain Programmer-Part 14: Node.js Client Cmd-line Args Keypair to Solana On-Chain Program](https://www.youtube.com/watch?v=PYulPZ1ngPA)  
+[Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-14) is the code from this part 14.  
+<br/>  
+  
+  
+### Up next... Part 15... stay tuned.  
 ```
 solana account <your account public key string here>
 ```
