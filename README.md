@@ -141,7 +141,11 @@ solana largest-accounts
 
 [Blockchain Programmer-Part 16: Rust Program Changes Solana Acct Value Via Command-Line](https://www.youtube.com/watch?v=oUU9ot9L3dE)  
 [Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-16) is the code from this part 16  
-  
+<br/>  
+[]()  
+[Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-17) is the code from this part 17.  
+
+
 ### Up next... Part 17.. stay tuned.  
 
 []()  
