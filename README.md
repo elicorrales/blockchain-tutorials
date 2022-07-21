@@ -142,17 +142,12 @@ solana largest-accounts
 [Blockchain Programmer-Part 16: Rust Program Changes Solana Acct Value Via Command-Line](https://www.youtube.com/watch?v=oUU9ot9L3dE)  
 [Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-16) is the code from this part 16  
 <br/>  
-[]()  
+[Blockchain Programmer-Part 17: Run New Rust Program Against Solana Account With Space](https://www.youtube.com/watch?v=iqxuA-XAlBw&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=17)  
 [Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-17) is the code from this part 17.  
 
 
-### Up next... Part 17.. stay tuned.  
+### Up next... Part 18.. Increment, Decrement, Reset a Peristent Counter - stay tuned.  
 
-[]()  
-
-[]()  
-
-[]()  
 
 
 
