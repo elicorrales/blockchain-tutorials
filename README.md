@@ -145,7 +145,7 @@ solana largest-accounts
 [Blockchain Programmer-Part 17: Run New Rust Program Against Solana Account With Space](https://www.youtube.com/watch?v=iqxuA-XAlBw&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=17)  
 [Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-17) is the code from this part 17.  
 <br/>  
-[]()  
+[Blockchain Programmer Part 18 Increment, Decrement, Reset Solana Counter](https://www.youtube.com/watch?v=7SXRlSfp95w&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=18)  
 [Here](https://github.com/elicorrales/my-first-solana-project-series-II-part-18) is the code from this part 18.  
 
 
