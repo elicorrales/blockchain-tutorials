@@ -75,7 +75,8 @@ ganache-cli --help
   
 <br/>
 More testing; try the following:  
-DO:
+  
+DO:  
 ```
 ganache
 ```
