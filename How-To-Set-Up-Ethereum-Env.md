@@ -1,9 +1,13 @@
+
 # How To Set Up Your Dev Environment To Work With Solana  
 <br/>  
 
 ### First, [Some General Setup](How-To-Set-Up-Env-Common.md)  
 <br/>  
-
+  
+NOTE: We are going to attempt to try/use several different local Ethereum blockchain networks.  
+<br/>  
+  
 ## 5a. (ATTEMPT) INSTALL GANACHE - A LOCAL DEV BLOCKCHAIN  
 
 Ganache is an Ethereum simulator that makes developing Ethereum applications faster, easier, and safer.  
@@ -156,6 +160,72 @@ Error: error:0308010C:digital envelope routines::unsupported
     at F
     (etc)
 ```
+<br/>
+<br/>
+  
+## 5b. (ATTEMPT) INSTALL HARDHAT - A LOCAL DEV BLOCKCHAIN  
+
+Hardhat is an Ethereum development environment for professionals. It facilitates performing frequent tasks, such as running tests, automatically checking code for mistakes or interacting with a smart contract.   
+  
+DO:  
+```
+npm install hardhat --global  
+```
+  
+OUTPUT:  
+The installation seems to fail....but perhaps not.
+```
+npm ERR! code ELOOP
+npm ERR! syscall spawn
+npm ERR! errno -40
+npm ERR! spawn ELOOP
+npm ERR! code ELOOP
+npm ERR! syscall spawn
+npm ERR! errno -40
+npm ERR! spawn ELOOP
+(etc)
+```
+  
+DO:  
+```
+IamDeveloper@SoftwareDevelopUbuntu2004
+~
+$ hardhat
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.10.1
+
+? What do you want to do? …
+▸ Create a JavaScript project
+  Create a TypeScript project
+  Create an empty hardhat.config.js
+  Quit 
+```
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 6. CREATE A SOFTWARE PROJECT DIRECTORY  
 ### These are just suggested, not required to do exactly like this below.
