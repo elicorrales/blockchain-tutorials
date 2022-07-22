@@ -123,7 +123,7 @@ RPC Listening on 127.0.0.1:8545
   
 
 
-## 5b. (ATTEMPT) INSTALL HARDHAT - A LOCAL DEV BLOCKCHAIN  
+## 5b. INSTALL HARDHAT - A LOCAL DEV BLOCKCHAIN  
 
 Hardhat is an Ethereum development environment for professionals. It facilitates performing frequent tasks, such as running tests, automatically checking code for mistakes or interacting with a smart contract.   
   
@@ -192,28 +192,28 @@ Welcome to Hardhat v2.10.1
 
 
 
-
+# Ignore Everything Below Here For Now - Does NOT Apply
 
 ## 6. CREATE A SOFTWARE PROJECT DIRECTORY  
 ### These are just suggested, not required to do exactly like this below.
 DO:  
 ```
-mkdir -p MySoftwareProjects/blockchain/rust/rust-solana-blockchain-projects
+mkdir -p MySoftwareProjects/blockchain/rust/rust-binance-smart-chain-projects/my-first-project
 ```
 ```
-cd MySoftwareProjects/blockchain/rust/rust-solana-blockchain-projects
+cd MySoftwareProjects/blockchain/rust/rust-binance-smart-chain-projects/my-first-project
 ```
 <br/>  
 
 
 ## 7. CREATE A TOP-LEVEL PROJECT && CLIENT DIR
 ### THIS WILL BE FOR CLIENT, FOR RUST ON-CHAIN PROGRAM, FOR WALLET, AND MORE
-#### While in the "rust-solana-blockchain-projects" directory, do...  
+#### While in the "rust-binance-smart-chain-projects" directory, do...  
 
 DO:  
 ```
-mkdir -p my-first-solana-project/my-first-client  
-mkdir -p my-first-solana-project/my-first-wallet  
+mkdir -p my-first-project/my-first-client  
+mkdir -p my-first--project/my-first-wallet  
 ```
 <br/>
 
