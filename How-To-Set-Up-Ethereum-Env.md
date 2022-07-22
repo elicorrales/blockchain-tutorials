@@ -188,9 +188,11 @@ npm ERR! spawn ELOOP
   
 DO:  
 ```
-IamDeveloper@SoftwareDevelopUbuntu2004
-~
-$ hardhat
+hardhat
+```
+
+OUTPUT:  
+```
 888    888                      888 888               888
 888    888                      888 888               888
 888    888                      888 888               888
