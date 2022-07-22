@@ -62,7 +62,7 @@ Hopefully most of the youtube titles are self-explanatory.
 <br/>
 <br/>
 
-#### Working on a ["How-To Set Up Your Dev Environment"](How-To-Set-Up-Env.md)  
+#### Here is ["How-To Set Up Your Solana Dev Environment"](How-To-Set-Up-Solana-Env.md)  
 <br/>
 
 [Blockchain Programmer - Part 1: Intro To Solana, Account, Keypair, Test Validator](https://www.youtube.com/watch?v=HiTJwCKzuD8&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=1)  
