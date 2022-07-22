@@ -1,6 +1,8 @@
 # How To Set Up Your Dev Environment To Work With Solana  
+<br/>  
 
 ### First, [Some General Setup](How-To-Set-Up-Env-Common.md)  
+<br/>  
 
 ## 5. INSTALL SOLANA TOOLSET
 For your edification,
