@@ -1,4 +1,7 @@
 # Decentralized Application (dApp) Blockchain Tutorials  
+
+#series-i---near-blockchain-tutorial-(deploying-wasm)
+
 These video-based(youtube) tutorials attempt to choose something somewhat challenging but at the same time go at a slow pace and try to go over basics.  
 <br/>
 The approach is to:
