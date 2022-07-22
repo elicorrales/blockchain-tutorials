@@ -1,6 +1,6 @@
 # Decentralized Application (dApp) Blockchain Tutorials  
 
-#series-i---near-blockchain-tutorial-(deploying-wasm)
+#Series I NEAR Blockchain Tutorial
 
 These video-based(youtube) tutorials attempt to choose something somewhat challenging but at the same time go at a slow pace and try to go over basics.  
 <br/>
@@ -10,7 +10,7 @@ The approach is to:
 - use the "onion" - sometimes we go deep into one topic, and at other times it's very shallow but we cover various topics
 
 ## Series I - NEAR Blockchain Tutorial (Deploying WASM)
-
+#series-i-near-blockchain-tutorial
 Between Part 1 and 2, we arrive at the conclusion to focus on Rust, and start with WASM blockchains.  
 
 [The Re-make Of An Old Programmer - Part 1](https://www.youtube.com/watch?v=EVEuPNYoaD4&list=PLNKa8O7lX-w5Myr19mn-dxtSphB5X1jUW&index=1)  
