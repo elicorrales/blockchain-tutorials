@@ -1,5 +1,5 @@
 
-# How To Set Up Your Dev Environment To Work With Solana  
+# How To Set Up Your Dev Environment To Work With ?????   
 <br/>  
 
 ### First, [Some General Setup](How-To-Set-Up-Env-Common.md)  
@@ -8,7 +8,7 @@
 NOTE: We are going to attempt to try/use several different local Ethereum blockchain networks.  
 <br/>  
   
-## 5a. (ATTEMPT) INSTALL GANACHE - A LOCAL DEV BLOCKCHAIN  
+## 5a. INSTALL GANACHE - A LOCAL DEV BLOCKCHAIN  
 
 Ganache is an Ethereum simulator that makes developing Ethereum applications faster, easier, and safer.  
   
@@ -17,8 +17,7 @@ DO:
 npm install ganache --global  
 ```
   
-OUTPUT:  
-The installation seems to fail....but perhaps not.
+POSSBLE ERROR OUTPUT:  
 ```
 IamDeveloper@SoftwareDevelopUbuntu2004
 ~
@@ -37,54 +36,34 @@ npm ERR! errno -40
 (etc....)
 ```
 
-It could be that ```ganache``` is the UI which would probably cause problems installing it in WSL Ubuntu.  
+If you get an error, there are at least three options.
+- Revert to Node v16.16.0.  If you are using ``nvm`` Node manager, it makes things easy.
+- Update to Node 18.6.0.  The installation seems to go well.
+- For your shell, add ```export NODE_OPTIONS=--openssl-legacy-provider``` and then try the installation again. You will probably have to add an ```--force``` to the npm install command, or even completely remove ganache from the ```node_modules``` directory.    
   
-DO:
+If the installation seemed to be successful, let's move on.  
+DO:  
 ```
-npm install ganache-cli --global (and optionally --force if you previously tried to install the above ganache).  
+node --version; npm --version
 ```
 
-OUTPUT:
+OUTPUT:  
 ```
 IamDeveloper@SoftwareDevelopUbuntu2004
 ~
-$ npm install -g ganache-cli --force
-npm WARN using --force Recommended protections disabled.
-npm WARN deprecated ganache-cli@6.12.2: ganache-cli is now ganache; visit https://trfl.io/g7 for details
-npm ERR! code ELOOP
-npm ERR! syscall spawn
-npm ERR! errno -40
-npm ERR! spawn ELOOP
-npm ERR! code ELOOP
-npm ERR! syscall spawn
-npm ERR! errno -40
-npm ERR! spawn ELOOP
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/IamDeveloper/.npm/_logs/2022-07-22T02_00_11_652Z-debug-0.log
+$ node --version; npm --version
+v18.6.0
+8.13.2
 IamDeveloper@SoftwareDevelopUbuntu2004
+~
 $
 ```
-
-It would seem that it failed but perhaps not.  
-  
-DO:  
-```
-ganache-cli --version
-```
-OR:
-```
-ganache-cli --help
-```
-  
-<br/>
-More testing; try the following:  
   
 DO:  
 ```
 ganache
 ```
-
+  
 OUTPUT:  
 ```
 ganache v7.3.2 (@ganache/cli: 0.4.2, @ganache/core: 0.4.2)
@@ -139,30 +118,11 @@ Chain Id
 
 RPC Listening on 127.0.0.1:8545
 ```
-
-
-That seems ok.  
-  
-Now try the ```-cli```.  
-DO:  
-```
-ganache-cli
-```
-
-OUTPUT:  
-```
-Error: error:0308010C:digital envelope routines::unsupported
-    at new Hash (node:internal/crypto/hash:67:19)
-    at Object.createHash (node:crypto:133:10)
-    at p (/home/IamDeveloper/.nvm/versions/node/v18.4.0/lib/node_modules/ganache-cli/build/ganache-core.node.cli.js:55:527949)
-    at b.set (/home/IamDeveloper/.nvm/versions/node/v18.4.0/lib/node_modules/ganache-cli/build/ganache-core.node.cli.js:55:528548)
-    at Function.b.fromMasterSeed (/home/IamDeveloper/.nvm/versions/node/v18.4.0/lib/node_modules/ganache-cli/build/ganache-core.node.cli.js:55:530917)
-    at F
-    (etc)
-```
 <br/>
 <br/>
   
+
+
 ## 5b. (ATTEMPT) INSTALL HARDHAT - A LOCAL DEV BLOCKCHAIN  
 
 Hardhat is an Ethereum development environment for professionals. It facilitates performing frequent tasks, such as running tests, automatically checking code for mistakes or interacting with a smart contract.   
@@ -185,7 +145,12 @@ npm ERR! errno -40
 npm ERR! spawn ELOOP
 (etc)
 ```
+If you get an error, there are at least three options.
+- Revert to Node v16.16.0.  If you are using ``nvm`` Node manager, it makes things easy.
+- Update to Node 18.6.0.  The installation seems to go well.
+- For your shell, add ```export NODE_OPTIONS=--openssl-legacy-provider``` and then try the installation again. You will probably have to add an ```--force``` to the npm install command, or even completely remove hardhat from the ```node_modules``` directory.    
   
+
 DO:  
 ```
 hardhat
