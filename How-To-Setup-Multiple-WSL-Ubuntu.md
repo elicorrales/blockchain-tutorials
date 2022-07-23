@@ -30,3 +30,17 @@ PS C:\Users\EliezerC> wsl -l -v
   Personal.Ubuntu.22.04    Stopped         2
 PS C:\Users\EliezerC>
 ```
+  
+In Windows Terminal, at top bar, click to view drop-down menu, select {{Settings}}.  
+  
+At bottom-left, click {{Add a new profile}}.  
+  
+Next, at top-center, click {{New empty profile}}.  
+  
+Enter a name.  
+  
+Enter a command line: {{C:\WINDOWS\system32\wsl.exe -d Personal.21.04}}.  
+  
+Enter a starting directory: {{~}}.  
+  
+
