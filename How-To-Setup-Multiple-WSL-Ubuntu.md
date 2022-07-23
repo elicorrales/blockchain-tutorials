@@ -1,7 +1,8 @@
 
 ## Download The WSL Ubuntu Image  
 Go to https://cloud-images.ubuntu.com/releases.  
-Scroll and find your desired version.
+Scroll and find your desired version.  
+
 [20.04/ 2022-07-12 12:34 - Ubuntu Server 20.04 LTS (Focal Fossa)](https://cloud-images.ubuntu.com/releases/focal/) 
 
 [20.10/ 2022-02-28 16:07 - Ubuntu Server 20.10 (Groovy Gorilla)](https://cloud-images.ubuntu.com/releases/groovy/)  
