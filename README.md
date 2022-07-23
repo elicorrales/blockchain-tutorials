@@ -72,6 +72,10 @@ Hopefully most of the youtube titles are self-explanatory.
 
 [Blockchain Programmer - Part 3: How to Set Up Multiple WSL Ubuntu Environments](https://www.youtube.com/watch?v=9hssNB5LiVE&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=3)  
 
+[Here](How-To-Setup-Multiple-WSL-Ubuntu.md) is the doc from this part 3.  
+<br/>  
+
+
 [Blockchain Programmer - Part 4: We Start Composing A Solana Node.js Cmd-Line Client](https://www.youtube.com/watch?v=wJIHjfpT82o&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=4)  
 
 [Blockchain Programmer - Part 5: Solana Node.js Client Interaction With Blockchain (Local Test Validator)](https://www.youtube.com/watch?v=XKvoilqT4Ps&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=5)  
@@ -81,10 +85,7 @@ Hopefully most of the youtube titles are self-explanatory.
 [Blockchain Programmer - Part 7: Deploy The Solana Rust On Chain Program](https://www.youtube.com/watch?v=rgJtW_FTXg8&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=7)  
 
 [Blockchain Programmer-Part 8: Setup VSCode With Windows and WSL](https://www.youtube.com/watch?v=rFqQJL8quTc&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=8)  
-
-[Here](How-To-Setup-Multiple-WSL-Ubuntu.md) is the doc from this part 8.  
-<br/>  
-
+  
 [Blockchain Programmer-Part 9: How To Find Example Code Snippets To Learn Solana, Web3.js](https://www.youtube.com/watch?v=Dnc5qnZ0dMM&list=PLNKa8O7lX-w5nEQjNbFRQV7e3Sd4qLi44&index=9)  
 
 
