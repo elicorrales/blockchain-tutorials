@@ -16,6 +16,11 @@ Scroll and find your desired version.
 ```
 wsl --import <name> "C:\Users\<Windows User>\<VM location Dir name>" C:\Users\<Windows User>\Downloads\ubuntu-(version)-server-cloudimg-amd64-wsl.rootfs.tar.gz
 ```
+  
+Example:  
+```
+wsl --import "21.04.Personal" "C:\Users\EliezerC\21.04.Personal" C:\Users\EliezerC\Downloads\ubuntu-21.04-server-cloudimg-amd64-wsl.rootfs.tar.gz
+```
 
 ```
 wsl -l -v
@@ -37,10 +42,17 @@ At bottom-left, click ```Add a new profile```.
   
 Next, at top-center, click ```New empty profile```.  
   
-Enter a name.  
+Enter a name: ```21.04.Personal```.  
   
-Enter a command line: ```C:\WINDOWS\system32\wsl.exe -d Personal.21.04```.  
+Enter a command line: ```C:\WINDOWS\system32\wsl.exe -d 21.04.Personal```.  
   
 Enter a starting directory: ```~```.  
   
+```
+NEW_USER=$(cat /etc/wsl.conf|grep default|sed -e 's/^.*default=//');
+useradd -m -G sudo -s /bin/bash "$NEW_USER";
+passwd "$NEW_USER";
+```
+  
+
 
