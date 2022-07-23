@@ -31,16 +31,16 @@ PS C:\Users\EliezerC> wsl -l -v
 PS C:\Users\EliezerC>
 ```
   
-In Windows Terminal, at top bar, click to view drop-down menu, select {{Settings}}.  
+In Windows Terminal, at top bar, click to view drop-down menu, select  ```Settings```.  
   
-At bottom-left, click {{Add a new profile}}.  
+At bottom-left, click ```Add a new profile```.  
   
-Next, at top-center, click {{New empty profile}}.  
+Next, at top-center, click ```New empty profile```.  
   
 Enter a name.  
   
-Enter a command line: {{C:\WINDOWS\system32\wsl.exe -d Personal.21.04}}.  
+Enter a command line: ```C:\WINDOWS\system32\wsl.exe -d Personal.21.04```.  
   
-Enter a starting directory: {{~}}.  
+Enter a starting directory: ```~```.  
   
 
