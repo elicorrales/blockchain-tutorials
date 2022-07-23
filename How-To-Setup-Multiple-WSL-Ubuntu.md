@@ -16,3 +16,17 @@ Scroll and find your desired version.
 ```
 wsl --import <name> "C:\Users\<Windows User>\<VM location Dir name>" C:\Users\<Windows User>\Downloads\ubuntu-(version)-server-cloudimg-amd64-wsl.rootfs.tar.gz
 ```
+
+```
+wsl -l -v
+```
+OUTPUT:
+```
+PS C:\Users\EliezerC> wsl -l -v
+  NAME                     STATE           VERSION
+* Ubuntu                   Stopped         2
+  Ubuntu.20.04             Running         2
+  21.04.Personal           Stopped         2  <---this is the new one just created
+  Personal.Ubuntu.22.04    Stopped         2
+PS C:\Users\EliezerC>
+```
