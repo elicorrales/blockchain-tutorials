@@ -121,3 +121,7 @@ sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
     -v portainer_data:/data \
     portainer/portainer-ce:latest
 ```
+  
+You can the point a browser to either the HTTP(8000) or HTTPS(9443) port and you'll see the portainer start-page.  
+Once you get past that, near center there should be a box speaking about your local environment, just click it.  
+Left-Nav pane should also have Images and Containers; you'll probably use those a lot.
