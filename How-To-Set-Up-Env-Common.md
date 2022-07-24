@@ -32,6 +32,10 @@ DO:
 sudo apt install -y build-essential
 ```
 
+You may need to also get ```cmake``` , ```clang``` (I forget exactly what you get with ```build-essential```.
+```
+sudo apt install -y cmake clang
+```
 
 ## 3. INSTALL (OR MAYBE UPDATE?)  RUST  
 ### (WE ARE LEARNING RUST - AND IT BUILDS THE ON-CHAIN PROGRAMS - SMART CONTRACTS)  
