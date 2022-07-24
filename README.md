@@ -17,7 +17,7 @@ The approach is to:
 <br/>  
 
 ## Series I - NEAR Blockchain Tutorial (Deploying WASM)
-#series-i-near-blockchain-tutorial
+
 Between Part 1 and 2, we arrive at the conclusion to focus on Rust, and start with WASM blockchains.  
 
 [The Re-make Of An Old Programmer - Part 1](https://www.youtube.com/watch?v=EVEuPNYoaD4&list=PLNKa8O7lX-w5Myr19mn-dxtSphB5X1jUW&index=1)  
