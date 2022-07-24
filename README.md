@@ -171,6 +171,8 @@ solana largest-accounts
 <br/>
 ## Series III - Substrate Blockchain Tutorial  
 <br/>
+We may be looking at docker images to run local Substrate node. [Here](How-To-Setup-Docker-WSL-Ubuntu.md) is how to setup Docker (engine) only on WSL Ubuntu without using/installing Docker Desktop.
+Caviat: (2022-07-24) I was not able to get the daemon to start in Ubuntu 22.04, and when installing and trying to ```sudo apt update``` Ubuntu 21.04, there was a release repositories issue, so I punted back to Ubuntu 20.04.  
 
 
 
