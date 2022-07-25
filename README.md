@@ -177,6 +177,6 @@ We may be looking at docker images to run local Substrate node.
 
 Caviat: (2022-07-24) I was not able to get the daemon to start in Ubuntu 22.04, and when installing and trying to ```sudo apt update``` Ubuntu 21.04, there was a release repositories issue, so I punted back to Ubuntu 20.04.  
 
-[Blockchain Generalist Part 1: Setup]()  
+[General Blockchain Programmer-Part 1: Setup For Substrate](https://www.youtube.com/watch?v=g269y3pY6MY)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-1) is code and helpful stuff for this Part 1.  
 
