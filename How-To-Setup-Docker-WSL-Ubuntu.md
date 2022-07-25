@@ -1,5 +1,8 @@
 # Install Docker (Engine only) on WSL Ubuntu 20.04  
-
+  
+### Caviat: I was not able to get Docker working on Ubuntu 22.04 using the below method.  
+It does work if you go the Docker Desktop route.  
+<br/>
 ```
 sudo apt update && sudo apt -y upgrade
 ```
@@ -111,7 +114,7 @@ For more examples and ideas, visit:
 # Install Portainer
 
 ```
-docker volume create portainer_data
+sudo docker volume create portainer_data
 ```
 
 ```
