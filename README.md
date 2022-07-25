@@ -175,6 +175,6 @@ solana largest-accounts
 [General Blockchain Programmer-Part 1: Setup For Substrate](https://www.youtube.com/watch?v=g269y3pY6MY)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-1) is code and helpful stuff for this Part 1.  
 
-[General Blockchain Programmer-Part 2: Repeat of Part 1 But With Docker]()  
+[General Blockchain Programmer-Part 2: Repeat of Part 1 But With Docker](https://www.youtube.com/watch?v=fO586RHsuEQ)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-2) is code and helpful stuff for this Part 2.  
 
