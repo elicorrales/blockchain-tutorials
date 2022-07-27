@@ -178,7 +178,7 @@ solana largest-accounts
 [General Blockchain Programmer-Part 2: Repeat of Part 1 But With Docker](https://www.youtube.com/watch?v=fO586RHsuEQ)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-2) is code and helpful stuff for this Part 2.  
   
-[General Blockchain Programmer-Part 3: Review Rust Libraries, Modules, Crates](https://www.youtube.com/watch?v=fO586RHsuEQ)  
+[General Blockchain Programmer-Part 3: Review Rust Libraries, Modules, Crates](https://www.youtube.com/watch?v=EbDGIIIUTUI)  
   
 [Here](https://github.com/elicorrales/learn-rust-modules-crates) is the code for Part 3.  
   
