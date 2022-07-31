@@ -182,5 +182,5 @@ solana largest-accounts
 [Here](https://github.com/elicorrales/learn-rust-modules-crates) is the code for Part 3.  
   
 [General Blockchain Programmer-Part 4: ???????]()  
-[Here](https://github.com/elicorrales/learn-rust-modules-crates) is the code and helpful stuff for Part 4.  
+[Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-4) is the code and helpful stuff for Part 4.  
   
