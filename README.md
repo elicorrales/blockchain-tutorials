@@ -181,6 +181,8 @@ solana largest-accounts
 [General Blockchain Programmer-Part 3: Review Rust Libraries, Modules, Crates](https://www.youtube.com/watch?v=EbDGIIIUTUI)  
 [Here](https://github.com/elicorrales/learn-rust-modules-crates) is the code for Part 3.  
   
-[General Blockchain Programmer-Part 4: ???????]()  
+[General Blockchain Programmer-Part 4: Build Substrate Smart Contract in Rust Using Cargo-Contract]()  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-4) is the code and helpful stuff for Part 4.  
+The video is quite long because it tries to breakdown why is all of what is inside Cargo.toml and lib.rs necessary, as well as possible errors you might get.  
+
   
