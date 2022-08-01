@@ -185,7 +185,7 @@ solana largest-accounts
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-4) is the code and helpful stuff for Part 4.  
 The video is quite long because it tries to breakdown why is all of what is inside Cargo.toml and lib.rs necessary, as well as possible errors you might get.  
 
-[General Blockchain Programmer-Part 5: Deploy, Instantiate, Call Rust Smart-Contract On Local Substrate Node]()  
+[General Blockchain Programmer-Part 5: Deploy, Instantiate, Call Rust Smart-Contract On Local Substrate Node](https://www.youtube.com/watch?v=-UVXYfqtI5o)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-5) is the code and helpful stuff for Part 5.  
   
 
