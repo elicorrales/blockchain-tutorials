@@ -188,7 +188,7 @@ The video is quite long because it tries to breakdown why is all of what is insi
 [General Blockchain Programmer-Part 5: Deploy, Instantiate, Call Rust Smart-Contract On Local Substrate Node](https://www.youtube.com/watch?v=-UVXYfqtI5o)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-5) is the code and helpful stuff for Part 5.  
   
-[General Blockchain Programmer-Part 6: ??????](https://www.youtube.com/watch?v=-UVXYfqtI5o)  
+[General Blockchain Programmer-Part 6: Prep Rust Contract, Contracts-Node, and Client For Debug](https://www.youtube.com/watch?v=5JWczgt8A1k)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-6) is the code and helpful stuff for Part 6.  
   
 
