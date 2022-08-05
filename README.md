@@ -198,5 +198,5 @@ The video is quite long because it tries to breakdown why is all of what is insi
 
 
 
-## Stay tuned for Part 7!
+## Stay tuned for Part 8!
   
