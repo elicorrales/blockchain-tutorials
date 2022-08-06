@@ -194,7 +194,7 @@ The video is quite long because it tries to breakdown why is all of what is insi
 [General Blockchain Programmer-Part 7: Javascript Client Interacts With Deployed Substrate Rust Contract](https://www.youtube.com/watch?v=Ap_K-43LTXk)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-7) is the code and helpful stuff for Part 7.  
   
-[General Blockchain Programmer-Part 8: Javascript Client Interacts With Deployed Substrate Rust Contract]()  
+[General Blockchain Programmer-Part 8: Javascript Client, Substrate Rust Contract, MetaData, GasLimit, Debugging]()  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-8) is the code and helpful stuff for Part 8.  
   
 
@@ -203,5 +203,5 @@ The video is quite long because it tries to breakdown why is all of what is insi
 
 
 
-## Stay tuned for Part 8!
+## Stay tuned for Part 9!
   
