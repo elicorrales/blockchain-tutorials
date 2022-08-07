@@ -194,7 +194,7 @@ The video is quite long because it tries to breakdown why is all of what is insi
 [General Blockchain Programmer-Part 7: Javascript Client Interacts With Deployed Substrate Rust Contract](https://www.youtube.com/watch?v=Ap_K-43LTXk)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-7) is the code and helpful stuff for Part 7.  
   
-[General Blockchain Programmer-Part 8: Javascript Client, Substrate Rust Contract, MetaData, GasLimit, Debugging]()  
+[General Blockchain Programmer-Part 8: Javascript Client, Substrate Rust Contract, MetaData, GasLimit, Debugging](https://www.youtube.com/watch?v=se05q26uBj0)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-8) is the code and helpful stuff for Part 8.  
   
 
