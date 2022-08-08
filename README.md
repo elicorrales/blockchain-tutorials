@@ -201,10 +201,3 @@ The video is quite long because it tries to breakdown why is all of what is insi
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-9) is the code and helpful stuff for Part 9.  
   
 
-
-
-
-
-
-## Stay tuned for Part 9!
-  
