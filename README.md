@@ -2,7 +2,8 @@
 
 [Series I NEAR Blockchain Tutorial](#series-i---near-blockchain-tutorial-deploying-wasm)  
 [Series II Solana Blockchain Tutorial](#series-ii---solana-blockchain-tutorial-deploying-ebpf)  
-[Series III Substrate Blockchain Tutorial](#series-iii---substrate-blockchain-tutorial)
+[Series III Substrate Blockchain Tutorial](#series-iii---substrate-blockchain-tutorial)  
+[Series IV Elrond Blockchain Tutorial](#series-iv---elrond-blockchain-tutorial)  
 <br/>  
 <br/>  
 These video-based(youtube) tutorials attempt to choose something somewhat challenging but at the same time go at a slow pace and try to go over basics.  
