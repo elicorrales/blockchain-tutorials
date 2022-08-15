@@ -54,6 +54,25 @@ Enter a command line: ```C:\WINDOWS\system32\wsl.exe -d 21.04.Personal```.
   
 Enter a starting directory: ```~```.  
   
+Icon:  
+```
+ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png
+```
+  
+History size: 60000  
+  
+Profile termination behavior:  
+```
+"Close when process exits, fails, or crashes"
+```
+  
+The 8 second rule  
+  
+> You must wait until the subsystem running your Linux distribution completely stops running and restarts for configuration setting updates to appear. This typically takes about 8 seconds after closing ALL instances of the distribution shell.  
+>   
+> If you launch a distribution (ie. Ubuntu), modify the configuration file, close the distribution, and then re-launch it. You might assume that your configuration changes have immediately gone into effect. This is not currently the case as the subsystem could still be running. You must wait for the subsystem to stop before relaunching in order to give enough time for your changes to be picked up.  
+  
+
 ```
 NEW_USER=$(cat /etc/wsl.conf|grep default|sed -e 's/^.*default=//');
 useradd -m -G sudo -s /bin/bash "$NEW_USER";
@@ -68,7 +87,7 @@ Let's shut down all Ubuntu Environments.
 wsl --shutdown
 ```  
   
-Let's lrab/copy the name of the environment we wish to remove.  
+Let's grab/copy the name of the environment we wish to remove.  
 ```
 wsl -l -v
 ```  
