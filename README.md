@@ -204,6 +204,6 @@ The video is quite long because it tries to breakdown why is all of what is insi
 ## Series IV - Elrond Blockchain Tutorial  
 <br/>
 
-[Elrond Smart Contract Intro-Part 1: Setup For Elrond]()  
+[Elrond Smart Contract Intro-Part 1: Setup For Elrond](https://www.youtube.com/watch?v=z2CzUwRiieY)  
 [Here](https://github.com/elicorrales/my-series-IV-rust-elrond-blockchain-part-1) is code and helpful stuff for this Part 1.  
   
