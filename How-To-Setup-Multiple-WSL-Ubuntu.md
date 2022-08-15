@@ -171,10 +171,6 @@ To again hush the long start up message:
 touch /home/IamDeveloper/.hushlogin
 ```
   
-## Remove Need To Enter Password When ```sudo```...  
-  
-<your user> ALL=(ALL) NOPASSWD:ALL
-| sudo tee /etc/sudoers.d/`whoami` && sudo chmod 0440 /etc/sudoers.d/`whoami`
 
 ## To Remove A WSL Ubuntu Environment...  
   
