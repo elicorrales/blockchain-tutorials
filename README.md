@@ -200,3 +200,9 @@ The video is quite long because it tries to breakdown why is all of what is insi
 [General Blockchain Programmer-Final: Javascript Client, Substrate Rust Contract "Counter", Return Data, Transactions, Balances](https://www.youtube.com/watch?v=9yWJsnpHFf0)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-9) is the code and helpful stuff for Part 9.  
   
+## Series IV - Elrond Blockchain Tutorial  
+<br/>
+
+[Elrond Smart Contract Intro-Part 1: Setup For Elrond]()  
+[Here](https://github.com/elicorrales/my-series-IV-rust-elrond-blockchain-part-1) is code and helpful stuff for this Part 1.  
+  
