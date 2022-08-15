@@ -138,14 +138,14 @@ useradd -m -G sudo -s /bin/bash "$NEW_USER";
 passwd "$NEW_USER";
 ```
   
-## Disable Password Prompt For User When Doing ```sudo```.  
+## Disable Password Prompt For User When Doing ```sudo```  
   
 It's quite annoying and since (most of us?) have to gain access to Windows anyway, why not just eliminate the annoyance.  It's up to you.  
 ```
 visudo -f /etc/sudoers.d/myOverrides
 ```
 You'll be dropped into an editor (nano?) (I never use it - I use ```vim```).  
-Add the folling for your new user:  
+Add the following for your new user:  
 ```
 IamDeveloper ALL=(ALL) NOPASSWD: ALL
 ```
