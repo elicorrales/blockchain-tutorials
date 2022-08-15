@@ -2,10 +2,10 @@
 
 ## 1. (OPTIONAL) CHANGE YOUR PROMPT '$' TO BE NEXT LINE AT START SO YOU CAN SEE MORE CMDLINE  
 DO:  
-#edit .bashrc  
-#find 'PS1'  
-#go to end of line(s) and add '\n' to just before the '\$'  
-#save/close .bashrc  
+edit .bashrc  
+find 'PS1'  
+go to end of line(s) and add '\n' to just before the '\$'  
+save/close .bashrc  
 ```
 source ~/.bashrc
 ```
