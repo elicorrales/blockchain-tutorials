@@ -138,6 +138,24 @@ useradd -m -G sudo -s /bin/bash "$NEW_USER";
 passwd "$NEW_USER";
 ```
   
+## Disable Password Prompt For User When Doing ```sudo```.  
+  
+It's quite annoying and since (most of us?) have to gain access to Windows anyway, why not just eliminate the annoyance.  It's up to you.  
+```
+visudo -f /etc/sudoers.d/myOverrides
+```
+You'll be dropped into an editor (nano?) (I never use it - I use ```vim```).  
+Add the folling for your new user:  
+```
+IamDeveloper ALL=(ALL) NOPASSWD: ALL
+```
+  
+Exit and save; the file name may have a ```.tmp``` after it but that's fine, it works.  
+  
+You may have to exit, and perhaps even shut it down via Windows Terminal.  
+  
+
+
 ## Try It Out  
 
 Enter ```exit``` in your current root shell. From the top of Windows Terminal drop-down, select it again.  
@@ -152,7 +170,11 @@ To again hush the long start up message:
 ```
 touch /home/IamDeveloper/.hushlogin
 ```
-
+  
+## Remove Need To Enter Password When ```sudo```...  
+  
+<your user> ALL=(ALL) NOPASSWD:ALL
+| sudo tee /etc/sudoers.d/`whoami` && sudo chmod 0440 /etc/sudoers.d/`whoami`
 
 ## To Remove A WSL Ubuntu Environment...  
   
