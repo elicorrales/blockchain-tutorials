@@ -83,7 +83,7 @@ If you want to hush the message, enter ```touch /root/.hushlogin``` at the promp
 We need a ```/etc/wsl.conf```:  
 ```
 [user]
-default=IamDeveloper
+default=IamDeveloper       #<--or any other username of your choice
 [network]
 hostname = SwDevUbuntu2204 #<--or any other hostname of your choice
 generateHosts = false
@@ -123,13 +123,36 @@ etc/hosts:127.0.1.1     SwDevUbuntu2204.us.corp SwDevUbuntu2204
 etc/hostname:SwDevUbuntu2204
 ```
 
-
+## Add New (Non-Root) User  
+In your current root shell, uou can make sure you get the correct username you chose by:  
+```
+NEW_USER=$(cat /etc/wsl.conf|grep default|sed -e 's/^.*default=//');
+```
+  
+Verify by ```echo $NEW_USER```. 
+  
+Now add the user: (be ready with a password)
 ```
 NEW_USER=$(cat /etc/wsl.conf|grep default|sed -e 's/^.*default=//');
 useradd -m -G sudo -s /bin/bash "$NEW_USER";
 passwd "$NEW_USER";
 ```
   
+## Try It Out  
+
+Enter ```exit``` in your current root shell. From the top of Windows Terminal drop-down, select it again.  
+  
+This time, you will have entered the environment as your new non-root user (in this case ```IamDeveloper```).  
+And your new username and hostname are part of the prompt:  
+```
+IamDeveloper@SwDevUbuntu2204:~$
+```
+  
+To again hush the long start up message:
+```
+touch /home/IamDeveloper/.hushlogin
+```
+
 
 ## To Remove A WSL Ubuntu Environment...  
   
