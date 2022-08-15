@@ -191,9 +191,12 @@ The video is quite long because it tries to breakdown why is all of what is insi
 [General Blockchain Programmer-Part 6: Prep Rust Contract, Contracts-Node, and Client For Debug](https://www.youtube.com/watch?v=5JWczgt8A1k)  
 [Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-6) is the code and helpful stuff for Part 6.  
   
-
-
-
-
-## Stay tuned for Part 7!
+[General Blockchain Programmer-Part 7: Javascript Client Interacts With Deployed Substrate Rust Contract](https://www.youtube.com/watch?v=Ap_K-43LTXk)  
+[Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-7) is the code and helpful stuff for Part 7.  
+  
+[General Blockchain Programmer-Part 8: Javascript Client, Substrate Rust Contract, MetaData, GasLimit, Debugging](https://www.youtube.com/watch?v=se05q26uBj0)  
+[Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-8) is the code and helpful stuff for Part 8.  
+  
+[General Blockchain Programmer-Final: Javascript Client, Substrate Rust Contract "Counter", Return Data, Transactions, Balances](https://www.youtube.com/watch?v=9yWJsnpHFf0)  
+[Here](https://github.com/elicorrales/my-first-substrate-project-series-III-part-9) is the code and helpful stuff for Part 9.  
   
