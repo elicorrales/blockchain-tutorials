@@ -65,7 +65,7 @@ OR:
   
 DO:  
 ```
-rust update
+rustup update
 ```
 
 OUTPUT:  
