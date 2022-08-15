@@ -13,6 +13,8 @@ Scroll and find your desired version.
   
 [22.04/ 2022-07-12 12:51 - Ubuntu Server 22.04 LTS (Jammy Jellyfish)](https://cloud-images.ubuntu.com/releases/22.04/) 
   
+## Create The WSL Ubuntu Environment  
+  
 ```
 wsl --import <name> "C:\Users\<Windows User>\<VM location Dir name>" C:\Users\<Windows User>\Downloads\ubuntu-(version)-server-cloudimg-amd64-wsl.rootfs.tar.gz
 ```
@@ -22,6 +24,7 @@ Example:
 wsl --import "21.04.Personal" "C:\Users\EliezerC\21.04.Personal" C:\Users\EliezerC\Downloads\ubuntu-21.04-server-cloudimg-amd64-wsl.rootfs.tar.gz
 ```
 
+## View The New Ubuntu Environment
 ```
 wsl -l -v
 ```
@@ -36,6 +39,9 @@ PS C:\Users\EliezerC> wsl -l -v
 PS C:\Users\EliezerC>
 ```
   
+## We Need A Profile Linked To The New Environment  
+####  So We Can Easily Select It And Run It  
+
 In Windows Terminal, at top bar, click to view drop-down menu, select  ```Settings```.  
   
 At bottom-left, click ```Add a new profile```.  
@@ -55,4 +61,21 @@ passwd "$NEW_USER";
 ```
   
 
+## To Remove A WSL Ubuntu Environment...  
+  
+Let's shut down all Ubuntu Environments.
+```  
+wsl --shutdown
+```  
+  
+Let's lrab/copy the name of the environment we wish to remove.  
+```
+wsl -l -v
+```  
+  
+We use that name now:  
+```
+wsl --unregister <distroName>
+```
+  
 
