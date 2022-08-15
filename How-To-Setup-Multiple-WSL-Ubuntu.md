@@ -125,7 +125,7 @@ etc/hostname:SwDevUbuntu2204
 ```
 
 ## Add New (Non-Root) User  
-In your current root shell, uou can make sure you get the correct username you chose by:  
+In your current root shell, you can make sure you get the correct username you chose by:  
 ```
 NEW_USER=$(cat /etc/wsl.conf|grep default|sed -e 's/^.*default=//');
 ```
