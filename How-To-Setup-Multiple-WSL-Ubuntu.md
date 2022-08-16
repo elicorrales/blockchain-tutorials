@@ -40,6 +40,12 @@ PS C:\Users\EliezerC> wsl -l -v
 PS C:\Users\EliezerC>
 ```
   
+## Run The New Ubuntu Environment (1st time)
+```
+wsl -l -v
+```
+  
+
 ## We Need A Profile Linked To The New Environment  
 ####  So We Can Easily Select It And Run It  
 
