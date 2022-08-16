@@ -1,5 +1,11 @@
 # How To Set Up Multiple Windows WSL Ubuntu Environments
   
+## NOTE:  
+These instructions assume:
+- you have Windows Terminal installed
+- Powershell is the default start-up when you run Windows Terminal.  
+  
+
 ## Download The WSL Ubuntu Image  
 Go to https://cloud-images.ubuntu.com/releases.  
 Scroll and find your desired version.  
@@ -19,7 +25,9 @@ Scroll and find your desired version.
 ```
 wsl --import <name> "C:\Users\<Windows User>\<VM location Dir name>" C:\Users\<Windows User>\Downloads\ubuntu-(version)-server-cloudimg-amd64-wsl.rootfs.tar.gz
 ```
+```name``` will show up when you ```wsl -l -v``` (below).  
   
+
 Example:  
 ```
 wsl --import "21.04.Personal" "C:\Users\EliezerC\21.04.Personal" C:\Users\EliezerC\Downloads\ubuntu-21.04-server-cloudimg-amd64-wsl.rootfs.tar.gz
@@ -40,24 +48,33 @@ PS C:\Users\EliezerC> wsl -l -v
 PS C:\Users\EliezerC>
 ```
   
-## Run The New Ubuntu Environment (1st time)
+## Run The New Ubuntu Environment (1st time)  
+In Windows Terminal, Powershell, do:
 ```
-wsl -l -v
+wsl -d <name>
 ```
   
+```name``` is what you just created, listed above when you did ```wsl -l -v```.  
+  
+
+You will be dropped into the Ubuntu you just created.  Enter ```exit```.  You're back in Powershell.  
+Enter ```exit``` in Powershell.  
+Re-run Windows Terminal.  At top bar, the drop-down menu, should now list your new Ubuntu.  
+In the menu, select ```Settings``` to update/edit that new profile.  
+
 
 ## We Need A Profile Linked To The New Environment  
 ####  So We Can Easily Select It And Run It  
 
 In Windows Terminal, at top bar, click to view drop-down menu, select  ```Settings```.  
   
-At bottom-left, click ```Add a new profile```.  
+At bottom-left, click ```Add a new profile```, **OR** find the profile named after your newly created Ubuntu instance.  
   
-Next, at top-center, click ```New empty profile```.  
+(Skip if you found the profile) Next, at top-center, click ```New empty profile```.  
   
-Enter a name: ```21.04.Personal```.  
+(Skip if found) Enter a name: ```21.04.Personal```.  
   
-Enter a command line: ```C:\WINDOWS\system32\wsl.exe -d 21.04.Personal```.  
+(Make sure it says this) Enter a command line: ```C:\WINDOWS\system32\wsl.exe -d 21.04.Personal```.  
   
 Enter a starting directory: ```~```.  
   
